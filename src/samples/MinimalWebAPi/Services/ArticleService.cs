@@ -3,7 +3,7 @@ using MinimalWebAPi.Models;
 
 namespace MinimalWebAPi.Services;
 
-public class ArticleService:IArticleService
+public class ArticleService : IArticleService
 {
     private readonly ApiContext _context;
 

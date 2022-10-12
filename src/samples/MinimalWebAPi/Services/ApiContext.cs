@@ -11,9 +11,8 @@ public class ApiContext : DbContext
         Articles = articles;
     }
 
-    public ApiContext(DbContextOptions<ApiContext> options): base(options)
+    public ApiContext(DbContextOptions<ApiContext> options) : base(options)
     {
-        
     }
 
     public DbSet<Article> Articles { get; set; }
